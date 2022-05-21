@@ -12,9 +12,9 @@ jobs:
         - run: echo "Trigerem jest ${{ github.event_name }} event."
         - run: echo "Job dziala na systemie ${{ runner.os }} by GitHub!"
         - run: echo "Twoj branch ${{ github.ref }} , repozytorium ${{ github.repository }}."
+
   dodatkowy_build:
     runs-on: ubuntu-latest
-
 
     steps:
         - name: Checkout Repozytorium
