@@ -24,4 +24,4 @@ jobs:
      - name: Wypisz liste plikow
     run: |
           ls ${{ github.workspace }}
-    - run: echo "Status joba jest ${{ job.status }}."
+    run: echo "Status joba jest ${{ job.status }}."
